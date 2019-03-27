@@ -12,7 +12,9 @@
 
 >3、配置环境变量
    Mac 版本:
-   >>1） vim ~/.bash_profile
+   ``````
+   
+    1）vim ~/.bash_profile
     ```
         export GOBIN=$GOROOT/bin
         export PATH=$PATH:$GOBIN
@@ -20,8 +22,12 @@
         export GOOS=darwin  
         export GOPATH=/Users/你的电脑用户名/Documents/GoWorkSpace
     ```
-    >>2）source ~/.bash_profile
-    >>3）验证环境变量是否成功： go version
+    
+    2）source ~/.bash_profile
+    
+    3）验证环境变量是否成功： go version
+    
+    ``````
 
 >4、使用subline、goland或其他ide 就可以瞎几把玩起来了。    
 ###############################################################
